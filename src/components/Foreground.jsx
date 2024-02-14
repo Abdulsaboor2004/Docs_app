@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import Card from "./Card";
+import Sidebar from "./Sidebar";
 
 const Foreground = () => {
 
@@ -33,6 +34,7 @@ const Foreground = () => {
       {data.map((item, index) => (
         <Card data={item} reference={ref} />
       ))}
+      <Sidebar />
     </div>
   );
 };
