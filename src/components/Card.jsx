@@ -4,11 +4,11 @@ import { MdDownload } from "react-icons/md";
 import { IoMdCloseCircle } from "react-icons/io";
 import { motion } from "framer-motion";
 
-const Card = ({ data, reference }) => {
+const Card = ({ data }) => {
   return (
     <motion.div
       drag
-      dragConstraints={reference}
+      dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
       whileDrag={{ scale: 1.2 }}
       dragTransition={{ bounceStiffness: 200, bounceDamping: 20 }}
       className="CARD flex flex-shrink-0 relative w-56 h-72 bg-zinc-900/90 rounded-[40px] py-8 text-white px-[22px] overflow-hidden"

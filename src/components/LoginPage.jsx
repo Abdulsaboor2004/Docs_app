@@ -19,10 +19,10 @@ function LoginPage() {
       return;
     }
 
-    // Login successful
+   
     console.log("Login successful!");
 
-    // Redirect to your app's home page or other appropriate route
+ 
   };
 
   return (
