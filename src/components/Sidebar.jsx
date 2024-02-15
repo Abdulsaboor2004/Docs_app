@@ -5,6 +5,9 @@ import { FaGithub } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { RiLockPasswordFill } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { purpleGradient, blueGradient, emeraldGradient } from "../styles";
+ 
+
 
 const Sidebar = () => {
   const [isHovered, setisHovered] = useState(false);
@@ -12,13 +15,10 @@ const Sidebar = () => {
   return (
     <>
       <motion.div
-        className=" flex w-14 bg-slate-600/70 h-screen fixed right-0 top-0 rounded-l-3xl
+        className={`flex w-14 h-screen fixed right-0 top-0 rounded-l-3xl
         hover:md:w-1/3 hover:sm:w-full focus-within:md:w-1/3 focus-within:sm:w-full
-        p-5 items-center justify-center flex-col text-white/70 transition-all"
-        style={{
-          background:
-            "linear-gradient(to bottom, rgba(107, 114, 202, 0.9), rgba(107, 114, 202, 0.5), rgba(107, 114, 202, 0.2))",
-        }}
+        p-5 items-center justify-center flex-col text-white/70 transition-all `}
+        style={purpleGradient}
         onMouseEnter={() => setisHovered(true)}
         onMouseLeave={() => setisHovered(false)}
         initial={{ opacity: 0, translateY: 20 }}

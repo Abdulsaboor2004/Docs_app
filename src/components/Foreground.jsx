@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Card from "./Card";
 import Sidebar from "./Sidebar";
 import Search from "./Search";
@@ -20,10 +20,10 @@ const Foreground = () => {
       tag: { isOpen: true, tagTitle: "Upload File", tagColor: "blue" },
     },
     {
-      desc: "Docs is making knowledge accessible to all!",
-      fileSize: "2.0 MB",
-      close: false,
-      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "emerald" },
+      desc: "Create a New Doc !",
+      fileSize: "",
+      close: "",
+      tag: { isOpen: true, tagTitle: "New File", tagColor: "blue" },
     },
   ];
 
@@ -33,7 +33,6 @@ const Foreground = () => {
       {data.map((item, index) => (
         <Card data={item}  />
       ))}
-
 
       <Sidebar />
       <Search />
