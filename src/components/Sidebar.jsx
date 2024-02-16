@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <>
       <motion.div
-        className={`flex w-14 h-screen fixed right-0 top-0 rounded-l-3xl
+        className={` flex w-14 h-screen fixed right-0 top-0 rounded-l-3xl
         hover:md:w-1/3 hover:sm:w-full focus-within:md:w-1/3 focus-within:sm:w-full
         p-5 items-center justify-center flex-col text-white/70 transition-all `}
         style={purpleGradient}

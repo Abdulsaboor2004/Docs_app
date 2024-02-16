@@ -7,12 +7,12 @@ import docs_logo from "../assets/docs_logo.webp";
 const Navbar = () => {
   return (
     <>
-      <nav className="fixed top-0 left-0 flex text-center items-center flex-col w-20 h-screen p-[1.4px]   bg-gradient-to-b from-zinc-900 to-zinc-900">
+      <nav className=" fixed top-0 left-0 flex text-center items-center flex-col w-20 h-screen p-[1.4px]   bg-gradient-to-b from-zinc-900 to-zinc-900">
         <img
           onClick={() => window.location.reload()}
           src={docs_logo}
           alt="docs logo"
-          className="scale-150 mb-12 cursor-pointer"
+          className="scale-125 mb-12 mt-4 cursor-pointer"
         />
 
         <div className="NAV-BUTTONS flex flex-col space-y-9 ">
