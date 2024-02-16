@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { LiaSearchSolid } from "react-icons/lia";
-import { purpleGradient } from "../styles";
+
 
 const Search = () => {
   // const [searchToggle, setsearchToggle] = useState(false);

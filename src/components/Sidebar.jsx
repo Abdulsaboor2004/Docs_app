@@ -6,8 +6,6 @@ import { IoMail } from "react-icons/io5";
 import { RiLockPasswordFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { purpleGradient, blueGradient, emeraldGradient } from "../styles";
- 
-
 
 const Sidebar = () => {
   const [isHovered, setisHovered] = useState(false);
@@ -55,8 +53,10 @@ const Sidebar = () => {
             <p>***************</p>
           </div>
           <div className="w-full h-1/6 flex items-center justify-center">
-
-          <button className=" w-1/3 rounded-full p-2 border font-bold tracking-wide"> Logout </button>
+            <button className=" w-32 rounded-full p-2 border font-bold tracking-wide">
+              
+              Logout
+            </button>
           </div>
 
           <div className="MY SOCIALS w-full h-1/3 flex items-center justify-between p-x-4 py-12 space-x-4 space-y-2  flex-col ">

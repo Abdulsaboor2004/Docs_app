@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Sidebar from "./Sidebar";
 import Search from "./Search";
+import Navbar from "./Navbar";
 
 const Foreground = () => {
   
@@ -19,23 +20,17 @@ const Foreground = () => {
       close: true,
       tag: { isOpen: true, tagTitle: "Upload File", tagColor: "blue" },
     },
-    {
-      desc: "Create a New Doc !",
-      fileSize: "",
-      close: "",
-      tag: { isOpen: true, tagTitle: "New File", tagColor: "blue" },
-    },
+
   ];
 
   return (
-    <div className="fixed z-[3] top-0 left-0 w-full h-full flex flex-wrap gap-10 px-5 py-24 "
-    >
+    <div className="fixed z-[3] top-0 left-0 w-full h-full flex flex-wrap gap-10 ml-[7%] px-5 py-24 ">
       {data.map((item, index) => (
         <Card data={item}  />
       ))}
-
-      <Sidebar />
       <Search />
+      <Sidebar />
+      <Navbar />
     </div>
   );
 };
