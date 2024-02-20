@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 
 # Plan 
-So is to make this app work for copywriters, I'll try to add a Registration Function, then a Place to generate Hashtags, Taglines for Social Media and also generate Ideas for beginner writers. It would have a dashboard of current page (without logging in) it would also have a div that'll store info regarding user in a square box. 
+So is to make this app work for copywriters, I'll try to add a Registration Function, then a Place to generate Hashtags, Taglines for Social Media and also generate Ideas for beginner writers. It would have a dashboard of current page (without logging in) it would also have a div that'll store info regarding user in a square box. Like Quill Bot.
 
 I'm planning to create a UI for it. For now I'm planning to wait atleast 3 days until i publish it on social media.  
 
