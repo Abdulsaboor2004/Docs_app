@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 import Search from "./Search";
 import Navbar from "./Navbar";
 import Trash from "./Trash";
-import Editor from "./Editor";
+import CreateDoc from "./CreateDoc";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -44,7 +44,7 @@ const Foreground = () => {
       <Routes>
         <Route index element={<CardList />} />
         <Route path="/Trash" element={<Trash />} />
-        <Route path="/Create-New-Doc" element={<Editor />} />
+        <Route path="/Create-New-Doc" element={<CreateDoc />} />
       </Routes>
 
       <Search />

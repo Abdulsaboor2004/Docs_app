@@ -13,7 +13,7 @@ const Card = ({ data }) => {
       dragTransition={{ bounceStiffness: 200, bounceDamping: 20 }}
       className="CARD flex xs:w-44 xs:h-56 sm:flex-shrink-0 relative sm:w-56 sm:h-72 bg-zinc-900/90 rounded-[40px] py-8 text-white px-[22px] overflow-hidden cursor-grab active:cursor-grabbing"
     >
-      <FaRegFileAlt />
+      <span>📝</span>
       <p className="text-sm font-semibold mt-6 leading-5">{data.fileName}</p>
 
       <div className="CARD-FOOTER absolute left-0 bottom-3  w-full h-16">

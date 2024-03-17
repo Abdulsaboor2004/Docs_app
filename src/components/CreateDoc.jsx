@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Editor = () => {
+const CreateDoc = () => {
   const [formData, setFormData] = useState({
     filename: "",
     category: "",
@@ -20,13 +20,14 @@ const Editor = () => {
   return (
     <div className="xs:flex-row sm:w-[80%] sm:h-[78%] flex flex-wrap xs:gap-5 xs:absolute xs:top-1/2 xs:left-1/2 xs:transform xs:-translate-x-1/2 xs:-translate-y-1/2 xs:w-[71.2%] rounded-3xl bg-gray-800 sm:items-center sm:justify-center sm:flex-col">
       <p class="text-3xl font-bold leading-7 text-gray-200 text-center">
-        Create a New Blog
+        Let's Write Something Next Level 🔥 ✍🏻
       </p>
-      <form onSubmit={handleSubmit} className="gap-5 flex flex-col">
+      <form onSubmit={handleSubmit} className="gap-5 flex flex-col w-full p-5">
         <label class="font-semibold leading-none text-gray-300 ">
           File Name
         </label>
         <input
+          spellCheck="true"
           type="text"
           name="filename"
           value={formData.filename}
@@ -44,7 +45,7 @@ const Editor = () => {
           onChange={handleChange}
           class="leading-none text-gray-50 text-sm p-2 focus:outline-none focus:border-gray-400 border-0 focus:bg-gray-900  bg-gray-700 rounded"
         >
-          <option value="">Choose a Niche</option>
+          <option value="">Choose the Niche you're Writing About 👇🏻👇🏻</option>
           <option value="technology">🔧 Technology</option>
           <option value="lifestyle">🏝 Lifestyle</option>
           <option value="travel">✈️ Travel</option>
@@ -77,8 +78,7 @@ const Editor = () => {
           Blog:
         </label>
 
-        {/* <textarea
-            
+        {/* <textarea 
             name="content"
             value={formData.content}
             onChange={handleChange}
@@ -88,13 +88,13 @@ const Editor = () => {
 
         <button
           type="submit"
-          class=" font-semibold leading-none text-white py-4 px-10 bg-indigo-500 rounded hover:bg-indigo-600 focus:ring-2 focus:ring-offset-2 border-none outline-none"
+          class=" font-semibold leading-none text-white py-4 px-10 bg-indigo-500 rounded hover:bg-indigo-600  border-none outline-none active:text-white/85 active:bg-indigo-600/90"
         >
-          Save Blog
+          Get Set, Write! 💨
         </button>
       </form>
     </div>
   );
 };
 
-export default Editor;
+export default CreateDoc;
