@@ -1,5 +1,5 @@
 CHECK IT HERE ‼
-https://abdulsaboor2004-docs-app.netlify.app/
+https://abdulsaboor2004-xcerpt.netlify.app/
 
 Xcerpt is an app for improving articles for content-writers which is currently using based on React and I've used npm, vite, Tailwind, Framer Motion and some awesome stuff.
 
